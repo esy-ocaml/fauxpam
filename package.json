@@ -20,6 +20,7 @@
     "ocaml": "*"
   },
   "devDependencies": {
-    "ocaml": "~4.2.3000"
+    "ocaml": "~4.2.3000",
+    "@opam/merlin": "*"
   }
 }
