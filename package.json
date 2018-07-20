@@ -10,7 +10,11 @@
     "install": [
       "esy-installer"
     ],
-    "buildsInSource": "_build"
+    "buildsInSource": "_build",
+    "_dependenciesForNewEsyInstaller": {
+      "@esy-ocaml/esy-installer": "^0.0.0",
+      "@opam/jbuilder": "*"
+    }
   },
   "dependencies": {
     "@esy-ocaml/esy-installer": "^0.0.0",
