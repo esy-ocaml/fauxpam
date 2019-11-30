@@ -1,0 +1,3 @@
+(executable
+ (name opam)
+ (public_name opam))
