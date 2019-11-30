@@ -1,13 +1,12 @@
 {
   "name": "@esy-ocaml/fauxpam",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Fake opam binary. Promises nothing. Delivers nothing. One million percent cross platform.",
   "license": "MIT",
   "esy": {
     "build": "dune build -p fauxpam"
   },
   "dependencies": {
-    "@esy-ocaml/esy-installer": "^0.0.0",
     "@opam/dune": "*",
     "ocaml": "*"
   },

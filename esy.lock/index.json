@@ -1,5 +1,5 @@
 {
-  "checksum": "09d1d62a23ed3598387152bf40c192f1",
+  "checksum": "dd1d806215e67421ab8a3d69f330b727",
   "root": "@esy-ocaml/fauxpam@link-dev:./package.json",
   "node": {
     "ocaml@4.6.1000@d41d8cd9": {
@@ -282,26 +282,11 @@
       },
       "overrides": [],
       "dependencies": [
-        "ocaml@4.6.1000@d41d8cd9", "@opam/dune@opam:1.11.4@a7ccb7ae",
-        "@esy-ocaml/esy-installer@0.0.0@d41d8cd9"
+        "ocaml@4.6.1000@d41d8cd9", "@opam/dune@opam:1.11.4@a7ccb7ae"
       ],
       "devDependencies": [
         "ocaml@4.6.1000@d41d8cd9", "@opam/merlin@opam:3.3.3@d653b06a"
       ]
-    },
-    "@esy-ocaml/esy-installer@0.0.0@d41d8cd9": {
-      "id": "@esy-ocaml/esy-installer@0.0.0@d41d8cd9",
-      "name": "@esy-ocaml/esy-installer",
-      "version": "0.0.0",
-      "source": {
-        "type": "install",
-        "source": [
-          "archive:https://registry.npmjs.org/@esy-ocaml/esy-installer/-/esy-installer-0.0.0.tgz#sha1:6b0e2bd4ee43531ac74793fe55cfcc3aca197a66"
-        ]
-      },
-      "overrides": [],
-      "dependencies": [],
-      "devDependencies": []
     }
   }
 }
